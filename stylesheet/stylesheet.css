@@ -1,66 +1,87 @@
-h1 {
-	color: #8E26C0;
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#headerBox {
+	width: 516px;
+	margin: 0 auto;
 	text-align: center;
+}
+
+#mainText {
+	color: #8E26C0;
 	font-size: 64px;
 }
-#firstDiv {
+
+#firstBox {
 	background-color: #FFE8E8;
 	width: 565px;
-	height: 86px;
-	gap: 10px;
 	margin: 32px;
-}
-#firstParagraph {
-	text-align: center;
 	padding: 24px 40px;
+	text-align: center;
+}
+
+#firstParagraph {
 	color: #FF0000;
 	font-size: 32px;
 }
-#secondDiv {
-	width: 1013px;
+
+#secondBox {
+	width: 1023px;
 	margin: 32px;
-	gap: 10px;
 	border-top: 2px solid #00C76E;
 	border-right: 6px solid #0055FF;
 	border-bottom: 2px solid #7F56D9;
 	border-left: 4px solid #C11574;
-}
-#secondParagraph {
+	padding: 24px 40px;
 	text-align: center;
+}
+
+#secondParagraph {
 	font-size: 40px;
 	color: #85647B;
+
+}
+
+#thirdBox {
+	width: 1023px;
+	margin: 44px 0 36px 32px;
+	background-color: #FFE8E8;
+	text-align: center;
 	padding: 24px 40px;
 }
-#thirdDiv {
-	width: 1023px;
-	gap: 10px;
-	margin: 32px;
-	background-color: #FFE8E8;
-}
+
 #thirdParagraph {
-	text-align: center;
 	color: #414651;
 	font-size: 32px;
-	padding: 24px 40px;
 }
-span {
+
+#smallText {
 	font-size: 40px;
 	color: #FF4405;
-	text-decoration-line: underline;
+	border-bottom: 2px solid #FF4405;
 }
-#fourthDiv {
+
+#fourthBox {
 	align-items: center;
 	width: 1069px;
-	margin: 32px;
-	gap: 10px;
-	border: 2px solid #3538CD;
-}
-#fourthParagraph {
+	margin: 36px 0 76px 32px;
 	padding: 24px 40px;
-	font-size: 32px;
+	border: 2px solid #3538CD;
 	text-align: center;
+}
+
+#fourthParagraph {
+	font-size: 32px;
 	color: #0064CE;
 }
+
+#fifthBox {
+	margin: 76px 0 122px 32px;
+}
 #mainImage {
-	margin: 32px;
+	width: 556px;
+	height: 347px;
 }
